@@ -4,11 +4,17 @@
 
     /* Colours */
     /* =========================================================================================== */
-    --colour-light-shade: #FAF9FA; /* Alabaster */
-    --colour-light-accent: #94AA9F; /* Pewter */
-    --colour-primary-brand: #66B032; /* Apple */
-    --colour-dark-accent: #756D56; /* Crocodile */
+    --colour-light-shade: #faf9fa; /* Alabaster */
+    --colour-light-accent: #94aa9f; /* Pewter */
+    --colour-primary-brand: #66b032; /* Apple */
+    --colour-dark-accent: #776246; /* Tobacco Brown */
     --colour-dark-shade: #383836; /* Tuatara */
+
+    --colour-primary-darker: #457226;
+    --colour-primary-dark: #55902c;
+    --colour-primary-normal: #66b032;
+    --colour-primary-light: #82bd57;
+    --colour-primary-lighter: #9dcb78;
 
     --color-grey-1: #FFFFFF;
     --color-grey-2: #EEEEEE;
@@ -79,3 +85,5 @@ h4 {
 h5 {
     font-size: var(--font-size-200);
 }
+
+
