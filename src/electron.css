@@ -1,0 +1,81 @@
+:root {
+    /* Core */
+    --e-base-unit: 1rem;
+
+    /* Colours */
+    /* =========================================================================================== */
+    --colour-light-shade: #FAF9FA; /* Alabaster */
+    --colour-light-accent: #94AA9F; /* Pewter */
+    --colour-primary-brand: #66B032; /* Apple */
+    --colour-dark-accent: #756D56; /* Crocodile */
+    --colour-dark-shade: #383836; /* Tuatara */
+
+    --color-grey-1: #FFFFFF;
+    --color-grey-2: #EEEEEE;
+    --color-grey-3: #D5D5D5;
+    --color-grey-4: #BBBBBB;
+    --color-grey-5: #A1A1A1;
+    --color-grey-6: #888888;
+    --color-grey-7: #6F6F6F;
+    --color-grey-8: #555555;
+    --color-grey-9: #3C3C3C;
+    --color-grey-10: #222222;
+
+    /* Typography */
+    /* =========================================================================================== */
+
+    /* Fonts */
+    --font-size-600: 2.5rem;
+    --font-size-500: 2rem;
+    --font-size-400: 1.75rem;
+    --font-size-300: 1.5rem;
+    --font-size-200: 1.25rem;
+    --font-size-100: 1rem;
+
+    /* Font Weights */
+    --font-weight-lighter: 100;
+    --font-weight-light: 200;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-bolder: 900;
+
+    /* Transition */
+    /* =========================================================================================== */
+    --transition-faster:    0.1s;
+    --transition-fast:      0.2s;
+    --transition-normal:    0.3s;
+    --transition-slow:      0.4s;
+    --transition-slower:    0.5s;
+
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    color: var(--color-grey-10);
+    font-size: var(--font-size-100);
+    font-weight: var(--font-weight-light);
+}
+
+h1 {
+    font-size: var(--font-size-600);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--font-size-500);
+}
+
+h3 {
+    font-size: var(--font-size-400);
+}
+
+h4 {
+    font-size: var(--font-size-300);
+}
+
+h5 {
+    font-size: var(--font-size-200);
+}
